@@ -1,4 +1,4 @@
-# flip coin Project Documentation
+# flip coin Game Documentation
 
 
 Follow these steps to run the application:
