@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --background-color: #192509;
+  --color-overlay: #62afff;
+  --form-label-color: rgb(114 80 42);
+  --primary-color: rgb(255 34 0 / 60%);
+  --primary-fill-color: white;
+  --loss-color: #c13535;
+  --win-color: #0f6d31;
+  --step-para-color: #e0b700;
+  --connect-wallet-hover-color: #26c6da;
+  --connect-wallet-text-color: rgb(114 80 42);
+  --bet-amount-bg-color: rgb(114 80 42);
+  --input-bg-color: rgb(255 34 0 / 70%);
+  --input-border-color: rgb(255 34 0 / 80%);
+  --pause-bg-color: rgba(0, 0, 0, 0.65);
+  --error-text-color: #9c1414;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url("./images/mario-draco.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin: -0.5rem 2rem 2rem;
+  }
+}
