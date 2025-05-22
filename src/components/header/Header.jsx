@@ -1,6 +1,6 @@
 import { Logo, Telegram, Twitter, HouseSolid } from "../../images";
 import "./Header.css";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { ConnectButton } from 'rainbowkit-ui'
 import { COIN } from "../../utils/constant";
 
 export function Header() {

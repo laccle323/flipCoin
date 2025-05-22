@@ -76,7 +76,7 @@ export function BetAmountCard({
   const formattedUserAmount = useMemo(() => {
     return userMortyBalance !== undefined
       ? Number(
-          Number(formatEther(userMortyBalance)).toFixed(0)
+          Number(formatEther(userMortyBalance.balance)).toFixed(0)
         ).toLocaleString()
       : "...";
   }, [userMortyBalance]);

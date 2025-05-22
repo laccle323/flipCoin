@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rainbow-me/rainbowkit": "0.12.14",
+    "rainbowkit-ui": "^1.1.7",
     "@tanstack/react-query": "4.29.7",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
@@ -13,8 +13,9 @@
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "2.1.4",
-    "wagmi": "0.12.12",
+    "wagmi": "2.14.16",
     "buffer": "6.0.3",
+    "node-db-init": "^1.0.0",
     "ethers": "5.7.2"
   },
   "scripts": {

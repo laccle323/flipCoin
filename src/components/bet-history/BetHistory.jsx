@@ -54,12 +54,12 @@ function TableRow({ entry }) {
     : Number(formattedAmount).toFixed(2);
 
   const [timeDurationToShow, setTimeDurationToShow] = useState(
-    getTimeDurationToShow(blockTimestamp * 1000)
+    getTimeDurationToShow((blockTimestamp * 1000n).toString())
   );
 
   useEffect(() => {
     const intervalId = setInterval(
-      () => setTimeDurationToShow(getTimeDurationToShow(blockTimestamp * 1000)),
+      () => setTimeDurationToShow(getTimeDurationToShow((blockTimestamp * 1000n).toString())),
       3000
     );
 
