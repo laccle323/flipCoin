@@ -11,13 +11,16 @@
     "buffer": "6.0.3",
     "concurrently": "^9.1.2",
     "ethers": "5.7.2",
+    "express": "^5.1.0",
     "node-db-init": "^1.0.0",
     "rainbowkit-ui": "^1.1.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
+    "viem": "^2.30.0",
     "wagmi": "2.14.16",
-    "web-vitals": "2.1.4"
+    "web-vitals": "2.1.4",
+    "web3": "^4.16.0"
   },
   "scripts": {
     "start": "react-scripts start",

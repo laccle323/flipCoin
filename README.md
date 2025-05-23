@@ -12,6 +12,11 @@ Follow these steps to run the application:
 yarn dev
 ```
 
+## System Requirements
+* cpu with 4 cores
+* 8GB RAM
+* 8MBit/s internet service
+
 Web3 based $Morty flip game. Built using Ether.js, RainbowKit, Wagmi, and ReactJS
 
 ![product demo](./src/images/morty-flip.png)
