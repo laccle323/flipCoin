@@ -13,7 +13,7 @@
     "ethers": "5.7.2",
     "express": "^5.1.0",
     "node-db-init": "^1.0.0",
-    "rainbowkit-ui": "^1.1.7",
+    "rainbowkit-ui": "^1.1.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
@@ -23,7 +23,7 @@
     "web3": "^4.16.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"node server/index.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
