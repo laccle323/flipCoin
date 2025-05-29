@@ -1,7 +1,7 @@
 # flip coin Game Documentation
 
 
-Follow these steps to run the application:
+Follow these steps to develop the application:
 
 1. Install the package modules by running the command: 
 ```bash
@@ -14,8 +14,8 @@ yarn dev
 
 ## System Requirements
 * cpu with 4 cores
-* 8GB RAM
-* 8MBit/s internet service
+* 16GB RAM
+* 10MBit/s internet service
 
 Web3 based $Morty flip game. Built using Ether.js, RainbowKit, Wagmi, and ReactJS
 
