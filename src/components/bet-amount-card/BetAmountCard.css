@@ -250,8 +250,8 @@ p.metamask-subtitle{
   font-size: 16px;
 }
 div.metamask-modal-content{
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 button.metamask-button{
   font-size: 14px;
