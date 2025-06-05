@@ -9,7 +9,7 @@ Follow these steps to develop the application:
 ```
 2. Spin up the Next.js development server: 
 ```bash
-yarn dev
+yarn start
 ```
 
 ## System Requirements
