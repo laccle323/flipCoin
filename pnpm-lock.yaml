@@ -36,8 +36,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   rainbowkit-ui:
-    specifier: ^1.1.7
-    version: 1.1.8(@tanstack/react-query@4.29.7)(@types/react@18.3.21)(react-dom@18.2.0)(react@18.2.0)(viem@2.30.0)(wagmi@2.14.16)
+    specifier: ^1.1.9
+    version: 1.1.9(@tanstack/react-query@4.29.7)(@types/react@18.3.21)(react-dom@18.2.0)(react@18.2.0)(viem@2.30.0)(wagmi@2.14.16)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -11225,8 +11225,8 @@ packages:
       performance-now: 2.1.0
     dev: false
 
-  /rainbowkit-ui@1.1.8(@tanstack/react-query@4.29.7)(@types/react@18.3.21)(react-dom@18.2.0)(react@18.2.0)(viem@2.30.0)(wagmi@2.14.16):
-    resolution: {integrity: sha512-VtET3celsrrCcK8Nm3rKLzvs3IB0qus2MsblYZ02XxlRvirON4Y4MmBhyjJtB4EFckg5M43ziXXueHwHPVOSnA==}
+  /rainbowkit-ui@1.1.9(@tanstack/react-query@4.29.7)(@types/react@18.3.21)(react-dom@18.2.0)(react@18.2.0)(viem@2.30.0)(wagmi@2.14.16):
+    resolution: {integrity: sha512-tvnEmfM+8+R2CUT5PI4ue1jTu/UAd4I4v0maKxyvkmVQjzt21e1E80pt9mktg1SeryoakkWJvecVtHZuKBbW0Q==}
     engines: {node: '>=12.4'}
     peerDependencies:
       '@tanstack/react-query': '>=5.0.0'

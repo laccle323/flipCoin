@@ -5,11 +5,11 @@ Follow these steps to develop the application:
 
 1. Install the package modules by running the command: 
 ```bash
- yarn install
+ pnpm install
 ```
 2. Spin up the Next.js development server: 
 ```bash
-yarn start
+pnpm start
 ```
 
 ## System Requirements
